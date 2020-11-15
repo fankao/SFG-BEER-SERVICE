@@ -1,7 +1,7 @@
 package com.spring.beer.sfgbeerservice.bootstrap;
 
 import com.spring.beer.sfgbeerservice.domain.Beer;
-import com.spring.beer.sfgbeerservice.repositories.BeerRepository;
+import com.spring.beer.sfgbeerservice.web.repositories.BeerRepository;
 import com.spring.beer.sfgbeerservice.web.model.BeerStyleEnum;
 import org.springframework.boot.CommandLineRunner;
 
