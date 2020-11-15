@@ -1,6 +1,6 @@
 package com.spring.beer.sfgbeerservice.web.controller;
 
-import com.spring.beer.sfgbeerservice.web.model.BeerDto;
+import com.spring.beer.model.BeerDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;

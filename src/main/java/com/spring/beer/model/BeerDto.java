@@ -1,4 +1,4 @@
-package com.spring.beer.sfgbeerservice.web.model;
+package com.spring.beer.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
