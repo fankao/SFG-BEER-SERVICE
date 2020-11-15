@@ -1,7 +1,7 @@
 package com.spring.beer.sfgbeerservice.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.spring.beer.sfgbeerservice.web.bootstrap.BeerLoader;
+import com.spring.beer.sfgbeerservice.bootstrap.BeerLoader;
 import com.spring.beer.model.BeerDto;
 import com.spring.beer.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;

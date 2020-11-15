@@ -1,8 +1,8 @@
-package com.spring.beer.sfgbeerservice.web.bootstrap;
+package com.spring.beer.sfgbeerservice.bootstrap;
 
 import com.spring.beer.model.BeerStyleEnum;
-import com.spring.beer.sfgbeerservice.web.domain.Beer;
-import com.spring.beer.sfgbeerservice.web.repositories.BeerRepository;
+import com.spring.beer.sfgbeerservice.domain.Beer;
+import com.spring.beer.sfgbeerservice.repositories.BeerRepository;
 import org.springframework.boot.CommandLineRunner;
 
 import java.math.BigDecimal;

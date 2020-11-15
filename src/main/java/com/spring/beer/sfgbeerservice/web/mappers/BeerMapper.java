@@ -1,6 +1,6 @@
 package com.spring.beer.sfgbeerservice.web.mappers;
 
-import com.spring.beer.sfgbeerservice.web.domain.Beer;
+import com.spring.beer.sfgbeerservice.domain.Beer;
 import com.spring.beer.model.BeerDto;
 import org.mapstruct.Mapper;
 
@@ -8,5 +8,5 @@ import org.mapstruct.Mapper;
 public interface BeerMapper {
     BeerDto beerToBeerDto(Beer beer);
 
-    Beer beerDtBeer(BeerDto dto);
+    Beer beerDtToBeer(BeerDto dto);
 }

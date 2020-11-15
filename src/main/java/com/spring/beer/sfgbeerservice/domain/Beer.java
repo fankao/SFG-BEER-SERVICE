@@ -1,4 +1,4 @@
-package com.spring.beer.sfgbeerservice.web.domain;
+package com.spring.beer.sfgbeerservice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
