@@ -1,6 +1,5 @@
 package com.spring.beer.sfgbeerservice.web.controller;
 
-
 import com.spring.beer.model.BeerDto;
 import com.spring.beer.sfgbeerservice.services.BeerService;
 import lombok.RequiredArgsConstructor;
@@ -30,6 +29,4 @@ public class BeerController {
     public ResponseEntity<?> updateBeerById(@PathVariable("beerId") UUID beerId, @RequestBody @Validated BeerDto beer) {
         return new ResponseEntity<>(beerService.updateBeer(beerId, beer),HttpStatus.NO_CONTENT);
     }
-
-
 }
